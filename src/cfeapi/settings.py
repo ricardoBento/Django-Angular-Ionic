@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     #local
     'accounts',
     'status',
-    'updates',
 ]
 
 MIDDLEWARE = [
