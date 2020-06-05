@@ -1,0 +1,1 @@
+@"c:\users\rbento\documents\github\django-angular-ionic\django-angular-ionic-env\scripts\python.exe" "c:\users\rbento\documents\github\django-angular-ionic\django-angular-ionic-env\Scripts\markdown_py" %*

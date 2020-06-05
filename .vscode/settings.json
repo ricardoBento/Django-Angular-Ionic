@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "Django-Angular-Ionic-Env\\Scripts\\python.exe",
+    "python.formatting.provider": "autopep8"
+}

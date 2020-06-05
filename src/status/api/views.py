@@ -24,7 +24,8 @@ def is_json(json_data):
 class StatusAPIDetailView(
     mixins.UpdateModelMixin,
     mixins.DestroyModelMixin, 
-    generics.RetrieveAPIView):
+    generics.RetrieveAPIView
+    ):
     permission_classes          = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
     serializer_class            = StatusSerializer
     queryset                    = Status.objects.all()

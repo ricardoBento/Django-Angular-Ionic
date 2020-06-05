@@ -10,11 +10,6 @@ Serializers -> validate data
 
 '''
 
-
-
-
-
-
 class StatusSerializer(serializers.ModelSerializer):
     uri             = serializers.SerializerMethodField(read_only=True)
     #user            = serializers.SerializerMethodField(read_only=True)
