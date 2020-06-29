@@ -7,13 +7,8 @@ import { NgModule } from '@angular/core';
 //Third party 
 import { CookieService } from 'ngx-cookie-service';
 
-
-
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-
-
 
 import { AuthComponent } from './auth/auth.component';
 import { AuthAPIService } from './auth/auth.service';

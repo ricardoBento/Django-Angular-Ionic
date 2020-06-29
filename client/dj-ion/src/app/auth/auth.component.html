@@ -1,11 +1,10 @@
-<p *ngIf='didLogin'>
+<p '>
     Welcome! Get started <a [routerLink]="'/'">here</a>.<br/><br/>
 </p>
 <p *ngIf='tokenExists'>
 You are already logged in! Would you like to <a routerLink='/logout'>logout</a>?
-
     </p>
-<form *ngIf='!userData && !tokenExists' [formGroup]='loginForm' #ourLoginDir='ngForm' (submit)='handleSubmit($event, ourLoginDir, loginForm)'>
+<form [formGroup]='loginForm' #ourLoginDir='ngForm' (submit)='handleSubmit($event, ourLoginDir, loginForm)'>
 
     <p *ngIf='loginErrors'>{{ loginErrors }}</p>
      <input type='text' id='username' formControlName='usernameField'>
